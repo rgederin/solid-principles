@@ -1,7 +1,11 @@
 package com.gederin.solid.liskov;
 
-/**
- * Created by rgederin on 10/30/17.
- */
 public class Liskov {
+    public static void main(String[] args) {
+        DevicesWithEngines car = new Car();
+        car.setName("Mazda");
+        car.setSpeed(10);
+
+        car.startMoving();
+    }
 }
