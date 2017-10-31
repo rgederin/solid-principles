@@ -10,6 +10,7 @@ public class ToyCar implements Toy, Movable {
     private String color;
     private double price;
 
+    @Override
     public void move() {
         System.out.println("ToyCar: Start moving car.");
     }

@@ -11,10 +11,12 @@ public class ToyPlane implements Toy, Movable, Flyable {
     private String color;
     private double price;
 
+    @Override
     public void move() {
         System.out.println("ToyPlane: Start moving plane.");
     }
 
+    @Override
     public void fly() {
         System.out.println("ToyPlane: Start flying plane.");
     }
